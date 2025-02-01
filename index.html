@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="./assests/images/profile.jpg"
+        alt="Profile Picture"
+        class="profile-picture"
+        data-testid="profilePicture"
+      />
+      <h2 data-testid="fullName">Emmanuel Mark Obi</h2>
+      <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+      <p class="bio" data-testid="shortBio">
+        I am a Frontend Developer who constantly seek out innovative solutions
+        to everyday problems. You can simply describe me as a Frontend addict.
+      </p>
+      <p class="location" data-testid="currentLocation">Lagos, Nigeria</p>
+      <p class="email" data-testid="emailAddress">obiski15@gmail.com</p>
+
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/Obiski15" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/Obiski15" target="_blank">LinkedIn</a>
+        <a href="https://x.com/_obiski" target="_blank">Twitter</a>
+      </div>
+
+      <p class="utc-time" data-testid="currentTimeUTC">
+        UTC Time: <span id="utc-time"></span>
+      </p>
+    </div>
+  </body>
+</html>
